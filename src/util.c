@@ -24,6 +24,8 @@
 
 #include "util.h"
 
+GHashTable* wifi_frequency_24;
+GHashTable* wifi_frequency_5;
 /**
  * Create the parent directories of given file path. Exit program on failure.
  */
